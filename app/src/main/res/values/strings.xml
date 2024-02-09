@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SchoolActivities</string>
+    <string name="layout">Layout Activity</string>
+    <string name="activity2">Activity 2</string>
+    <string name="activity3">Activity 3</string>
+    <string name="activity4">Activity 4</string>
+</resources>

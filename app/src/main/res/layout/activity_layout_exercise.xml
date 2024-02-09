@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LayoutExercise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/stories_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/madcat" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/sad"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/sadcat3"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/sadcat4"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/sadcat5"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="120sp"
+                            android:layout_height="120sp"
+                            android:layout_marginRight="5sp"
+                            android:src="@drawable/sadcat6"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/activity2"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/sadcat6"/>
+                        <TextView
+                            android:layout_marginLeft="8sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="SuperSadCat8000"
+                            android:gravity="center"
+                            android:textSize="30sp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="400sp"
+                        android:src="@drawable/girldfriend1"/>
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Like"/>
+                        <Button
+                            android:layout_marginLeft="5sp"
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Share"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/sad"/>
+                        <TextView
+                            android:layout_marginLeft="8sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Meowelp"
+                            android:gravity="center"
+                            android:textSize="30sp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="300sp"
+                        android:src="@drawable/toy1"/>
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Like"/>
+                        <Button
+                            android:layout_marginLeft="5sp"
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Share"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/sadcat4"/>
+                        <TextView
+                            android:layout_marginLeft="8sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="br0k3nK1tty"
+                            android:gravity="center"
+                            android:textSize="30sp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="300sp"
+                        android:src="@drawable/livesleft"/>
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Like"/>
+                        <Button
+                            android:layout_marginLeft="5sp"
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Share"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/madcat"/>
+                        <TextView
+                            android:layout_marginLeft="8sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="FuRrRoc10us_meo"
+                            android:gravity="center"
+                            android:textSize="30sp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="400sp"
+                        android:src="@drawable/bad_cat"/>
+                    <LinearLayout
+                        android:layout_margin="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Like"/>
+                        <Button
+                            android:layout_marginLeft="5sp"
+                            android:layout_width="85sp"
+                            android:layout_height="40sp"
+                            android:text="Share"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
